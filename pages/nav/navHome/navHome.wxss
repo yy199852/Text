@@ -1,0 +1,107 @@
+.swiper{
+  height: 350rpx;
+}
+.slide-image{
+  width: 100%;
+}
+.nav{
+  width: 100%;
+  margin: 20rpx 0;
+}
+.nav .nav_ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav .nav_ul .nav_li{
+  width: 20%;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 10rpx;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nav .nav_ul .nav_li:active{
+  background-color: #f6f6f6;
+}
+.nav .nav_ul .nav_li image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.nav .nav_ul .nav_li text{
+  font-size: 26rpx;
+  color: #666;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+.horShop{
+  width: 100%;
+}
+.horShop .horShop_title{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border-top:2rpx solid #f6f6f6;
+  border-bottom:2rpx solid #f6f6f6; 
+
+}
+.horShop .horShop_title .left{
+  width: 50%;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+}
+.horShop .horShop_title .left image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.horShop .horShop_title text{
+  font-size: 26rpx;
+  color: #999;
+}
+
+.horShop_content{
+  width: 100%
+}
+.horShop_content .horShop_content_ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.horShop_content .horShop_content_ul .horShop_content_li{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.horShop_content .horShop_content_ul .horShop_content_li:active{
+  background-color: #f6f6f6;
+}
+.horShop_content .horShop_content_ul .horShop_content_li image{
+  width: 240rpx;
+  height: 240rpx;
+  min-width: 240rpx;
+  min-height: 240rpx;
+  margin-bottom: 15rpx;
+}
+.horShop_content .horShop_content_ul .horShop_content_li text{
+  font-size: 22rpx;
+  line-height: 35rpx;
+  color: #999;
+}
+.horShop_content .horShop_content_ul .horShop_content_li text.title{
+  color: #e3048c;
+}

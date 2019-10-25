@@ -1,0 +1,83 @@
+.cart_shop{
+  width: 100%
+}
+.cart_shop .cart_ul{
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.cart_shop .cart_ul .cart_li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 4rpx 4rpx #f4f4f4;
+  padding:30rpx 20rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+}
+.cart_shop .cart_ul .cart_li .iconfont{
+font-size: 40rpx;
+}
+.cart_shop .cart_ul .cart_li .icon-xuanzhong{
+  color: #e3048c;
+
+}
+.cart_shop .cart_ul .cart_li .message{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.cart_shop .cart_ul .cart_li .message image{
+  width: 120rpx;
+  height: 120rpx;
+  min-height: 120rpx;
+  min-width: 120rpx;
+  margin: 0 40rpx;
+}
+.cart_shop .cart_ul .cart_li .message .right{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart_shop .cart_ul .cart_li .message .right .title{
+  width: 100%;
+  font-size: 28rpx;
+  display: block;
+}
+.cart_shop .cart_ul .cart_li .message .right .content{
+  font-size: 24rpx;
+  width: 100%;
+  color: #999;
+  margin: 10rpx 0;
+  display: block;
+
+}
+.cart_shop .cart_ul .cart_li .message .right .btn{
+  width: 50%;
+  display: flex;
+  margin-left: 50%;
+}
+.cart_shop .cart_ul .cart_li .message .right .btn text{
+  display: inline-block;
+  width: 50rpx;
+  min-height: 50rpx;
+  min-width: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  height: 30rpx;
+border: 2rpx solid #f6f6f6;
+}
+.cart_shop .cart_ul .cart_li .message .right .btn text:active{
+  background-color: #f6f6f6;
+}
+.cart_shop .cart_ul .cart_li .message .right .btn input{
+  width: 100%;
+  text-align: center;
+  height: 50rpx;
+  min-height: 50rpx;
+  line-height: 40rpx;
+  border-top: 2rpx solid #f6f6f6;
+  font-size: 24rpx;
+  border-bottom: 2rpx solid #f6f6f6;
+
+}

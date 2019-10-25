@@ -1,0 +1,20 @@
+
+<view class="cart_shop">
+  <view class="cart_ul">
+    <view class="cart_li" wx:for='{{arrCartData}}' data-index="{{index}}" catchtap="selectShop">
+      <text class="iconfont {{item.isxit == 1 ? 'icon-xuanzhong':'icon-yuanxing' }}"></text>
+      <view class="message">
+        <image src="{{item.imgUrl}}"></image>
+        <view class="right">
+          <text class="title">{{item.title}}</text>
+          <text class="content">{{item.content}}</text>
+          <view class="btn">
+            <text class="min" data-index="{{index}}" catchtap="minNum">-</text>
+            <input type="number" value="{{item.num}}" disabled='true'></input>
+            <text class="add" data-index="{{index}}" catchtap="addNum">+</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

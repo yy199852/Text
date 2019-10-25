@@ -1,0 +1,40 @@
+<swiper indicator-dots="false"
+  autoplay="false" interval="3000" duration="1000" class="swiper" circular='true'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="nav">
+  <view class="nav_ul">
+    <view class="nav_li" wx:for='{{navData}}'>
+      <image src="{{item.imgUrl}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+</view>
+
+<!-- hor -->
+<view class="horShop">
+
+  <view class="horShop_title">
+    <view class="left">
+      <image src="../../../image/home_hot@3x.png"></image>
+      热卖专区
+    </view>
+    <text>>更多推荐</text>
+  </view>
+
+  <view class="horShop_content">
+    <view class="horShop_content_ul">
+      <view class="horShop_content_li" wx:for='{{horShopData}}'>
+        <image src="{{item.imgUrl}}"></image>
+        <text class="title">{{item.textTitle}}</text>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>

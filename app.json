@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/nav/navHome/navHome",
+    "pages/nav/navCart/navCart",
+    "pages/nav/navUser/navUser",
+    "pages/nav/navList/navList",
+
+    "pages/user/changePwd/changePwd",
+    "pages/user/about/about",
+    
+        "pages/index/index", 
+        "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e3048c",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#e3048c",
+    "list": [
+      {
+        "pagePath": "pages/nav/navHome/navHome",
+        "iconPath": "/image/tabBar/shouye.png",
+        "selectedIconPath": "/image/tabBar/shouye01.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/nav/navList/navList",
+        "iconPath": "/image/tabBar/danju.png",
+        "selectedIconPath": "/image/tabBar/danju-tianchong.png",
+        "text": "订购中心"
+      },
+      {
+        "pagePath": "pages/nav/navCart/navCart",
+        "iconPath": "/image/tabBar/gouwuche_1.png",
+        "selectedIconPath": "/image/tabBar/gouwuche.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/nav/navUser/navUser",
+        "iconPath": "/image/tabBar/user.png",
+        "selectedIconPath": "/image/tabBar/iconuser.png",
+        "text": "用户中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

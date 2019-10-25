@@ -1,0 +1,60 @@
+
+<view class="account">
+  <image src="../../../image/normalImg.png"></image>
+  <view class="account_right">
+    <view class="p">
+      <text>账号：</text>{{account.accountName}}
+    </view>
+    <view class="p">
+      <text>操作员：</text>{{account.userName}}
+    </view>
+    <view class="p">
+      <text>手机号：</text>{{account.handPhone}}
+    </view>
+    <view class="p">
+      <text>账套：</text>{{account.dbName}}
+    </view>
+  </view>
+</view>
+
+<view class="list">
+  <view class="list_ul">
+    <view class="list_li">
+      <view class="list_left">
+        <text class="iconfont icon-web"></text>
+        信管飞官网
+      </view>
+      <text class="iconfont icon-icon--"></text>
+    </view>
+    <view class="hr"></view>
+    <view class="list_li" data-hi="changePwd" bindtap="toNavigate">
+       <view class="list_left">
+        <text class="iconfont icon-xiugaimima"></text>       
+        修改密码
+      </view>
+      <text class="iconfont icon-icon--"></text>
+    </view>
+    <view class="list_li" data-hi="about" bindtap="toNavigate">
+       <view class="list_left">
+        <text class="iconfont icon-guanyu"></text>        
+        关于
+      </view>
+      <text class="iconfont icon-icon--"></text>
+    </view>
+    <view class="list_li">
+      <view class="list_left">
+        <text class="iconfont icon-hj3"></text>        
+        设置
+      </view>
+      <text class="iconfont icon-icon--"></text>
+    </view>
+    <view class="hr"></view>
+    <view class="list_li ">
+      <view class="list_left">
+        <text class="iconfont icon-tuichu"></text>        
+        退出
+      </view>
+      <text class="iconfont icon-icon--"></text>
+    </view>
+  </view>
+</view>
